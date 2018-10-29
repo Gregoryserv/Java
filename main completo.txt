@@ -1,0 +1,154 @@
+Empresa
+	nome
+	cnpj
+	
+Eendereço
+	rua
+	bairro	
+	cidade
+	numero
+	get e set
+	
+Produto
+	valor
+	quantidade
+	get e set
+
+Venda
+	get e set
+
+
+Funcionário
+	meta
+	get e set
+
+	calcularComissao()
+
+Cliente
+	nome	
+	endereço
+	get e set
+
+Estoque
+	quantidadeDeProdutos
+	get e set
+
+
+FormaDePagamento
+	
+
+tipo
+	get e set
+
+
+
+
+
+
+::::::::::::::::::::EMPRESA::::::::::::
+
+1 - Cadastrar Funcionário
+2 - Cadastrar Cliente
+3 - Cadastrar Produtos
+4 - Efetuar Venda
+5 - Ver todos os Funcionários
+6 - Ver todos os Clientes
+7 - Ver todos os Produtos do estoque
+8 -  
+
+:::::::::::::::::::::::::::::::::::::::
+
+------PRESS 1--------- 
+
+|Cadastre o cliente|
+
+Nome:
+CPF:
+Endereço:
+
+----------------------
+
+
+------PRESS 2--------- 
+
+Nome:
+CPF:
+Endereço:
+Meta: 
+
+----------------------
+
+
+------PRESS 3--------- 
+
+Nome:
+Categoria:
+Valor:
+Código:
+
+----------------------
+
+
+
+------PRESS 4--------- 
+
+Funcionário já cadastrado ?
+
+|SIM, fazer login|  |não, cadastrar|
+
+
+if( SIM )			if(NAO)
+	Search nome e cpf  		Cadastrar Cliente (Nome, CPF, Endereço)
+
+---------------------
+"Efetuar Venda"
+
+1 -  adicionar produto
+2 - cancelar produto
+3 - continuar
+
+-------------------
+
+
+------PRESS 1---------
+Código do Produto: 
+
+Adicionar outro produto?
+|Sim|  |Não, terminar compra|
+
+if(sim)				if(não)	
+	Código do produto 		continuar
+
+
+
+------PRESS 2---------
+
+remove item tal
+
+Remover outro produto?
+
+|Sim|    |Não|
+
+if(sim) 			if(não)
+	remover item tal 		continuar
+
+------PRESS 3---------
+
+Forma de pagamento
+
+|Cartão Débito|  |Cartão Crédito|  |Dinheiro|
+
+
+
+ 
+
+
+
+
+	
+
+
+
+
+
+
